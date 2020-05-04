@@ -54,24 +54,6 @@
 .modal-footer, .EditHomeModalContent-footer-10Ix6N {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
-.modal-body {
-  background: var(--modal-bg-color);
-}
-body > div.user-select-modal.modal.modal-transparent.fade.in > div > div.modal-content > div > div.modal-body {
-  background: none;
-}
-#pin-form > div {
-  background: none;
-}
-.modal-list {
-background-color: rgba(0, 0, 0, 0.25);
-}
-.match-result-list-item>.match-result .match-score-info {
-  color: #eee;
-}
-.fix-incorrect-match-modal .match-location {
-  color: #eee;
-}
 /*Modal icon color*/ 
 .edit-section-modal .wizard-blocks-group>.wizard-block {
   color: #ffffff;
@@ -90,3 +72,94 @@ background-color: rgba(0, 0, 0, 0.25);
   color: #fff;
 }
 /* This was a tough one :D */
+
+/* GMatt's contributions - Deplexify */
+
+    /* Loading Screen Tweaks */
+    .plex-preloader-container.plex-logo{
+        display: none;
+    }
+    /* Plex Sidebar Misc Removals */
+    .AllSourcesSidebarContent-container-3ONiKZ > div:nth-child(3) {
+        display: none;
+    }
+    .AllSourcesSidebarContent-container-3ONiKZ > div:nth-child(4) {
+        display: none;
+    }
+    div.SourceSidebarItem-button-257zM0:nth-child(7) {
+        display: none;
+    }
+    div.SourceSidebarLink-sourceLink-307kPL {
+        display: none;
+    }
+    div.SourceSidebarLink-medium-3t-Vhv:nth-child(2){
+      display: none;
+    }
+
+
+    /* Top Navbar Tweaks */
+    .NavBar-plexPassButton-wVK4vI {
+        display: none;
+    }
+    .NavBar-buttonSeparator-1ZbV4v {
+        display: none;
+    }
+    .NavBar-plexLogo-3_NNRw {
+        display: none;
+    }
+
+
+    /* Homescreen Cleanup */
+    .AutoHomePage-autoHomePageContent-2A7d9X > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) {
+        display: none;
+    }
+    .AutoHomePage-autoHomePageContent-2A7d9X > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(3) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2) {
+        display: none;
+    }
+    div.HubCell-hubCell-3Ys175:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3) {
+        display: none;
+    }
+    .AutoHomePage-autoHomePageContent-2A7d9X > div:nth-child(2) {
+        display: none;
+    }
+
+
+    /* Account Page Settings Hiding */
+    div.SettingsFormSection-sectionWrapper-1-gPgj:nth-child(2) {
+        display: none;
+    }
+    div.SettingsFormSection-sectionWrapper-1-gPgj:nth-child(11) {
+        display: none;
+    }
+    div.SidebarListItem-sidebarListItem-GdcVsd:nth-child(6) {
+        display: none;
+    }
+    .SettingsSidebar-sidebarContent-3yMjj9 > div:nth-child(1) > div:nth-child(3) {
+        display: none;
+    }
+
+    /* Account Dropdown Settings Hiding */
+    a.BadgeMenuItem-badgeMenuItem-3GW7S7 {
+        display: none;
+    }
+    a.MenuItem-menuItem-1s02mQ:nth-child(6) {
+        display: none;
+    }
