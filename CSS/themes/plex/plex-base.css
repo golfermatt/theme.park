@@ -342,26 +342,3 @@ a:hover {
     .AutoHomePage-autoHomePageContent-2A7d9X > div:nth-child(2) {
         display: none;
     }
-
-
-    /* Account Page Settings Hiding */
-    div.SettingsFormSection-sectionWrapper-1-gPgj:nth-child(2) {
-        display: none;
-    }
-    div.SettingsFormSection-sectionWrapper-1-gPgj:nth-child(11) {
-        display: none;
-    }
-    div.SidebarListItem-sidebarListItem-GdcVsd:nth-child(6) {
-        display: none;
-    }
-    .SettingsSidebar-sidebarContent-3yMjj9 > div:nth-child(1) > div:nth-child(3) {
-        display: none;
-    }
-
-    /* Account Dropdown Settings Hiding */
-    a.BadgeMenuItem-badgeMenuItem-3GW7S7 {
-        display: none;
-    }
-    a.MenuItem-menuItem-1s02mQ:nth-child(6) {
-        display: none;
-    }
